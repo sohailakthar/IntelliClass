@@ -3,7 +3,7 @@
     <head>
         <!-- Title and Icon -->
 
-        <title>MiroTalk WebRTC Video call, Chat Room & Screen Sharing.</title>
+        <title>IntelliClass WebRTC Video call, Chat Room & Screen Sharing.</title>
         <link rel="shortcut icon" href="../images/logo.svg" />
         <link rel="apple-touch-icon" href="../images/logo.svg" />
 
@@ -69,12 +69,6 @@
     <body onload="initClientPeer()">
         <noscript>You need to enable JavaScript to run this app.</noscript>
 
-        <!-- just 4SEO Optimization -->
-
-        <div id="webRTCSeo">
-            <h1>WebRTC</h1>
-        </div>
-
         <!-- show this before to join -->
 
         <div id="loadingDiv" class="center pulsate">
@@ -119,22 +113,23 @@ access to use this app.
 
         <div id="buttonsBar" class="fadein">
             <button id="shareRoomBtn" class="fas fa-share-alt"></button>
+            <button id="captionBtn"></button>
             <button id="hideMeBtn" class="fas fa-user"></button>
-            <button id="swapCameraBtn" class="fas fa-camera-rotate"></button>
+            <button id="roomEmojiPickerBtn"></button>
             <button id="videoBtn" class="fas fa-video"></button>
+            <button id="fileShareBtn"></button>
             <button id="audioBtn" class="fas fa-microphone"></button>
+            <button id="documentPiPBtn"></button>
             <button id="screenShareBtn" class="fas fa-desktop"></button>
+            <button id="mySettingsBtn"></button>
             <button id="recordStreamBtn" class="fas fa-record-vinyl"></button>
+            <button id="aboutBtn"></button>
             <button id="fullScreenBtn" class="fas fa-expand-alt"></button>
+            <button id="aboutBtn"></button>
             <button id="chatRoomBtn" class="fas fa-comment"></button>
-            <button id="captionBtn" class="fas fa-closed-captioning"></button>
-            <button id="roomEmojiPickerBtn" class="fas fa-face-smile"></button>
+            <button id="aboutBtn"></button>
             <button id="myHandBtn" class="fas fa-hand-paper"></button>
-            <button id="whiteboardBtn" class="fas fa-chalkboard-teacher"></button>
-            <button id="fileShareBtn" class="fas fa-folder-open"></button>
-            <button id="documentPiPBtn" class="fas fa-images"></button>
-            <button id="mySettingsBtn" class="fas fa-cogs"></button>
-            <button id="aboutBtn" class="fas fa-question"></button>
+            <button id="whiteboardBtn"></button>
             <button id="leaveRoomBtn" class="fas fa-right-from-bracket"></button>
         </div>
         <!-- End left buttons -->
@@ -204,12 +199,12 @@ access to use this app.
 
                 <div class="msger-input-buttons">
                     <button id="msgerEmojiBtn" class="fas fa-smile"></button>
-                    <button id="msgerMarkdownBtn" class="fab fa-markdown"></button>
                     <button id="msgerGPTBtn" class="fas fa-robot"></button>
                     <button id="msgerShareFileBtn" class="fas fa-paperclip"></button>
                     <button id="msgerVideoUrlBtn" class="fab fa-youtube"></button>
                     <button id="msgerCPBtn" class="fas fa-users"></button>
                     <button id="msgerCleanTextBtn" class="fas fa-trash"></button>
+                    <button id="msgerMarkdownBtn" class="fab fa-markdown"></button>
                     <button id="msgerPasteBtn" class="fas fa-paste"></button>
                     <button id="msgerSendBtn" class="fas fa-paper-plane"></button>
                 </div>

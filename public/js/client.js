@@ -7,7 +7,7 @@
 */
 
 /**
- * MiroTalk P2P - Client component
+ * IntelliClass - Client component
  *
  * @link    GitHub: https://github.com/miroslavpejic85/mirotalk
  * @link    Official Live demo: https://p2p.mirotalk.com
@@ -139,7 +139,7 @@ const showVideoPipBtn = document.pictureInPictureEnabled;
 const showDocumentPipBtn = !isEmbedded && 'documentPictureInPicture' in window;
 
 /**
- * Configuration for controlling the visibility of buttons in the MiroTalk P2P client.
+ * Configuration for controlling the visibility of buttons in the IntelliClass client.
  * Set properties to true to show the corresponding buttons, or false to hide them.
  * captionBtn, showSwapCameraBtn, showScreenShareBtn, showFullScreenBtn, showVideoPipBtn, showDocumentPipBtn -> (auto-detected).
  */
@@ -1424,7 +1424,7 @@ async function whoAreYou() {
         allowOutsideClick: false,
         allowEscapeKey: false,
         background: swBg,
-        title: 'MiroTalk P2P',
+        title: 'IntelliClass',
         position: 'center',
         input: 'text',
         inputPlaceholder: 'Enter your name',
@@ -5610,7 +5610,7 @@ function shareRoomMeetingURL(checkScreen = false) {
         </div>
         <br/>
         <p style="color:rgb(8, 189, 89);">Join from your mobile device</p>
-        <p style="background:transparent; color:white; font-family: Arial, Helvetica, sans-serif;">No need for apps, simply capture the QR code with your mobile camera Or Invite someone else to join by sending them the following URL</p>
+        <p style="background:transparent; color:white; font-family: Arial, Helvetica, sans-serif;">Invite others to this live conference.</p>
         <p style="color:rgb(8, 189, 89);">${roomURL}</p>`,
         showDenyButton: true,
         showCancelButton: true,
@@ -5686,7 +5686,7 @@ function shareRoomByEmail() {
             const selectedDateTime = document.getElementById('datetimePicker').value;
             const roomPassword = isRoomLocked && thisRoomPassword ? 'Password: ' + thisRoomPassword + newLine : '';
             const email = '';
-            const emailSubject = `Please join our MiroTalk P2P Video Chat Meeting`;
+            const emailSubject = `Please join our IntelliClass Video Chat Meeting`;
             const emailBody = `The meeting is scheduled at: ${newLine} DateTime: ${selectedDateTime} ${newLine}${roomPassword}Click to join: ${roomURL} ${newLine}`;
             document.location = 'mailto:' + email + '?subject=' + emailSubject + '&body=' + emailBody;
         },
@@ -9838,7 +9838,7 @@ function showAbout() {
             Email:<a 
                 id="email-button" 
                 data-umami-event="Email button" 
-                href="mailto:miroslav.pejic.85@gmail.com?subject=MiroTalk P2P info"> 
+                href="mailto:miroslav.pejic.85@gmail.com?subject=IntelliClass info"> 
                 miroslav.pejic.85@gmail.com
             </a>
         </div>
@@ -9853,11 +9853,7 @@ function showAbout() {
  */
 function leaveRoom() {
     checkRecording();
-    if (surveyActive) {
-        leaveFeedback();
-    } else {
-        redirectOnLeave();
-    }
+    redirectOnLeave();
 }
 
 /**

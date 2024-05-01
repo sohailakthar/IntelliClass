@@ -270,6 +270,10 @@ body {
     color: #ff2d00;
 }
 
+#aboutBtn, #mySettingsBtn, #captionBtn, #roomEmojiPickerBtn, #fileShareBtn, #documentPiPBtn, #whiteboardBtn {
+    visibility: hidden;
+}
+
 .fa-microphone-slash,
 .fa-video-slash {
     color: #e74c3c !important;
@@ -467,6 +471,15 @@ body {
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
     transition: background 0.23s;
+    visibility: hidden;
+}
+
+#msgerClose {
+    visibility: visible;
+}
+
+#msgerSpeechMsgDiv, #msgerShowChatOnMsgDiv {
+    visibility: hidden;
 }
 
 .msger-header-title button:hover,
@@ -699,6 +712,10 @@ button:hover {
     color: #fff;
     background: var(--msger-bg);
     transition: background 0.23s;
+}
+
+#msgerPasteBtn, #msgerCleanTextBtn, #msgerCPBtn, #msgerVideoUrlBtn, #msgerMarkdownBtn, #myVideoPinBtn, #myVideoFullScreenBtn, #myVideoPiPBtn, #myVideoMirror, #myVideoToImgBtn {
+    visibility: hidden;
 }
 
 .msger-input-buttons button:hover {

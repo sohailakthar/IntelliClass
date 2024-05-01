@@ -1,8 +1,8 @@
 swagger: '2.0'
 
 info:
-    title: MiroTalk P2P API
-    description: API description for external applications that integrates with MiroTalk P2P.
+    title: IntelliClass P2P API
+    description: API description for external applications that integrates with IntelliClass.
     version: 1.0.1
 
 basePath: /api/v1

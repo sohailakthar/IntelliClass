@@ -31,7 +31,7 @@ dependencies: {
 */
 
 /**
- * MiroTalk P2P - Server component
+ * IntelliClass - Server component
  *
  * @link    GitHub: https://github.com/miroslavpejic85/mirotalk
  * @link    Official Live demo: https://p2p.mirotalk.com
@@ -167,7 +167,7 @@ const jwtCfg = {
 };
 
 // Room presenters
-const roomPresentersString = process.env.PRESENTERS || '["MiroTalk P2P"]';
+const roomPresentersString = process.env.PRESENTERS || '["IntelliClass"]';
 const roomPresenters = JSON.parse(roomPresentersString);
 
 // Swagger config

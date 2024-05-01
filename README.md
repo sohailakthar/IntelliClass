@@ -1,4 +1,4 @@
-<h1 align="center">MiroTalk P2P</h1>
+<h1 align="center">IntelliClass</h1>
 
 <br />
 
@@ -11,7 +11,7 @@
 
 <br/>
 
-1. `Open` [MiroTalk P2P](https://p2p.mirotalk.com/newcall) or [alternative link](https://mirotalk.up.railway.app/newcall).
+1. `Open` [IntelliClass](https://p2p.mirotalk.com/newcall) or [alternative link](https://mirotalk.up.railway.app/newcall).
 2. `Choose` a room name and click **Join Room**.
 3. `Grant` camera and microphone access.
 4. `Share` the room URL and wait for participants to join the video conference.
@@ -23,7 +23,7 @@
 
 <br/>
 
--   Before running MiroTalk P2P, ensure you have `Node.js` installed. This project has been tested with Node versions [12.X](https://nodejs.org/en/blog/release/v12.22.1/), [14.X](https://nodejs.org/en/blog/release/v14.17.5/), [16.X](https://nodejs.org/en/blog/release/v16.15.1/) and [18.x](https://nodejs.org/en/download).
+-   Before running IntelliClass, ensure you have `Node.js` installed. This project has been tested with Node versions [12.X](https://nodejs.org/en/blog/release/v12.22.1/), [14.X](https://nodejs.org/en/blog/release/v14.17.5/), [16.X](https://nodejs.org/en/blog/release/v16.15.1/) and [18.x](https://nodejs.org/en/download).
 
 ```bash
 # clone this repo
